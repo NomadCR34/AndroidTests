@@ -16,18 +16,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EsperssoTest">
-        <activity android:name=".ActivityCamera">
+        <activity android:name=".ActivityDialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityPickPicture"/>
+        <activity android:name=".ActivityCamera"/>
+        <activity android:name=".ActivityPickPicture" />
         <activity android:name=".ActivityTwo" />
         <activity android:name=".ActivityOne" />
         <activity android:name=".ActivityViewModel" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
